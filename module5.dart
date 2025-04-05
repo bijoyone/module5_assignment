@@ -11,7 +11,7 @@ abstract class Vehicle {
 class Car extends Vehicle {
   @override
   void move() {
-    print("The car is moving at $_speed km/h");
+    print("The car is moving at $speed km/h");
   }
 }
 
